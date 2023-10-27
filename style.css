@@ -39,10 +39,11 @@ nav ul{
 .line{
     background-color: black;
     width: 0;
-    height: 3px;
+    height: 5px;
     position: absolute;
-    background-color: rgb(237, 178, 237);
-    transition: width 1s ease-in-out;
+    background-color: rgb(28, 65, 80);
+    transition: width 0.5s ease-in-out;
+    border-radius: 3px;
 }
 .box:hover{
     background-color: rgb(174, 202, 215);
@@ -60,7 +61,7 @@ nav ul{
 }
 .imgbox img{
     width:0;
-    transition: width 1s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 .br-0{
     border-right:0;
